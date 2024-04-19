@@ -11,7 +11,7 @@ const AppNavigation = () => {
   // const { isLogin } = useContext(AppContext)
   return (
     <NavigationContainer >
-      <MainStackNavigation />
+      <AuthenStack />
       {/* {
         appState.user ?<MainStackNavigation /> :
         <AuthenStack /> 
